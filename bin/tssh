@@ -1,0 +1,18 @@
+#!/bin/bash
+
+sn="ssh_$RANDOM"
+
+if [[ "$#" -eq 0 ]]
+then
+  echo >&2 'hostname(s) needed'
+  exit 1
+fi
+
+tmux new-session -d -s $sn "ssh $1"
+tmux rename-window "$1"
+for hn in ${@:2}
+do
+  tmux new-window -t $sn -n $hn "ssh $hn"
+done
+tmux select-window -t $sn:1
+tmux attach-session -t $sn
