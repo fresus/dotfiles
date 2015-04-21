@@ -1,0 +1,7 @@
+[user]
+	name = fresus
+	email = jarg82@gmail.com
+[credential]
+	helper = cache
+[color]
+	ui = auto
