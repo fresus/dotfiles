@@ -10,3 +10,8 @@
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
