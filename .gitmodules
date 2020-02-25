@@ -1,3 +1,6 @@
-[submodule "zsh/.zprezto"]
-	path = zsh/.zprezto
-	url = https://github.com/fresus/prezto
+[submodule "zsh/.oh-my-zsh"]
+	path = zsh/.oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "zsh/.oh-my-zsh-custom/themes/spaceship-prompt"]
+	path = zsh/.oh-my-zsh-custom/themes/spaceship-prompt
+	url = https://github.com/denysdovhan/spaceship-prompt
