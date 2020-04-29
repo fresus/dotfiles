@@ -78,16 +78,12 @@ plugins=(
   command-not-found
   docker
   docker-compose
-  emoji
   fd
   fzf
   git
-  git-auto-fetch
   git-extras
   helm
-  jira
   kops
-  kube-ps1
   kubectl
   terraform
   tmux
@@ -121,3 +117,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_KUBECTL_SHOW=true
+SPACESHIP_KUBECTL_VERSION_SHOW=false
+SPACESHIP_HG_SHOW=false
+SPACESHIP_XCODE_SHOW_LOCAL=false
+SPACESHIP_SWIFT_SHOW_LOCAL=false
