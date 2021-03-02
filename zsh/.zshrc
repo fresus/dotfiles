@@ -74,16 +74,15 @@ plugins=(
   ansible
   asdf
   aws
-  brew
   command-not-found
   docker
   docker-compose
+  dotenv
   fd
   fzf
   git
   git-extras
   helm
-  kops
   kubectl
   terraform
   tmux
