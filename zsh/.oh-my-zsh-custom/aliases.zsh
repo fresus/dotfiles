@@ -1,0 +1,8 @@
+alias cat='bat --paging=never'
+alias tg='terragrunt'
+alias tga='terragrunt apply'
+alias tgd='terragrunt destroy'
+alias tgf='terragrunt fmt'
+alias tgi='terragrunt init'
+alias tgp='terragrunt plan'
+alias tgv='terragrunt validate'
