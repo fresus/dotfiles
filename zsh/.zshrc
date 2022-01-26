@@ -84,6 +84,7 @@ plugins=(
   git-extras
   helm
   kubectl
+  kubectx
   terraform
   tmux
   ubuntu
