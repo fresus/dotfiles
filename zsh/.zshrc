@@ -72,7 +72,6 @@ ZSH_TMUX_AUTOSTART=true
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   ansible
-  asdf
   aws
   command-not-found
   docker
@@ -85,6 +84,7 @@ plugins=(
   helm
   kubectl
   kubectx
+  mise
   starship
   terraform
   tmux

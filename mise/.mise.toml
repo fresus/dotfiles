@@ -1,0 +1,9 @@
+[tools]
+bat = "latest"
+neovim = "latest"
+awscli = "latest"
+kubectl = "latest"
+starship = "latest"
+fd = "latest"
+tree-sitter = "latest"
+kubectx = "latest"
