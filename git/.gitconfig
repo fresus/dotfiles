@@ -1,27 +1,23 @@
-[credential]
-	helper = cache
-[color]
-	ui = true
-[push]
-	default = simple
 [core]
-	excludesfile = ~/.gitignore
-	editor = vim
-	pager = diff-highlight | less --tabs=4 -RFX
-[alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
-[color "diff"]
-	meta = 11
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
+    excludesfile = ~/.gitignore
+    editor = nvim
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+
+    # delta detects terminal colors automatically; set one of these to disable auto-detection
+    # dark = true
+    # light = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+
+[push]
+    default = simple
