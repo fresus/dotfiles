@@ -71,6 +71,7 @@ ZSH_TMUX_AUTOSTART=true
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  mise
   ansible
   aws
   command-not-found
@@ -84,7 +85,6 @@ plugins=(
   helm
   kubectl
   kubectx
-  mise
   starship
   terraform
   tmux
@@ -120,3 +120,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#export MISE_LEGACY_VERSION_FILE_DISABLE_TOOLS=terraform
