@@ -14,15 +14,14 @@
     # light = true
 
 [merge]
-    conflictstyle = diff3
-
-[diff]
-    colorMoved = default
+    conflictstyle = zdiff3
 
 [push]
     default = simple
+
 [user]
     email = 162174+fresus@users.noreply.github.com
     name = Jesús A. Rodríguez
+
 [pull]
     rebase = true
