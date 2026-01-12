@@ -1,0 +1,9 @@
+[tools]
+bat = "latest"
+delta = "latest"
+fd = "latest"
+fzf = "latest"
+jq = "latest"
+neovim = "latest"
+starship = "latest"
+tree-sitter = "latest"
