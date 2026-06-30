@@ -8,3 +8,6 @@ neovim = "latest"
 node = "latest"
 starship = "latest"
 tree-sitter = "latest"
+
+[settings]
+minimum_release_age = "7d"
